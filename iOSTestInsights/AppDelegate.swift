@@ -7,15 +7,25 @@
 //
 
 import UIKit
+import ApplicationInsights
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+     //   MSAIApplicationInsights.sharedInstance().setup();
+     //   MSAIApplicationInsights.setupWithInstrumentationKey("uvcuf54vp1cw7620o4sigjge2wxzusfpanfcm0dt")
+        MSAIApplicationInsights.setupWithInstrumentationKey("0ae0f162-a360-4316-ac48-77e6b7daecc9")
+        MSAIApplicationInsights.sharedInstance().start();
+        
+        MSAITelemetryManager.trackPageView("ViewController",
+                                           duration:0.2,
+                                           properties:["ViewController":4.8])
+        
         return true
     }
 
