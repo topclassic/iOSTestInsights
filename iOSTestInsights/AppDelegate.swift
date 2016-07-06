@@ -24,8 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         MSAITelemetryManager.trackPageView("ViewController",
                                            duration:0.2,
-                                           properties:["ViewController":4.8])
+                                           properties:["ID = 1":4.8])
         
+        MSAITelemetryManager.trackPageView("SecondViewController",
+                                           duration:0.2,
+                                           properties:["ID = 2":4.8])
+       
+        MSAIApplicationInsights.sharedInstance().setUserWithConfigurationBlock(<#T##userConfigurationBlock: (MSAIUser) -> Void##(MSAIUser) -> Void#>)
+        MSAITelemetryManager.trackMetricWithName("Test metric", value:42.2)
         return true
     }
 

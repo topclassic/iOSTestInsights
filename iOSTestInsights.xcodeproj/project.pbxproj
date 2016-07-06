@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		478AA9031D19C39C00B901E2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478AA9021D19C39C00B901E2 /* SecondViewController.swift */; };
 		47E6ACC61D192D1A0020B498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6ACC51D192D1A0020B498 /* AppDelegate.swift */; };
 		47E6ACC81D192D1A0020B498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E6ACC71D192D1A0020B498 /* ViewController.swift */; };
 		47E6ACCB1D192D1A0020B498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E6ACC91D192D1A0020B498 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		478AA9021D19C39C00B901E2 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		47E6ACC21D192D1A0020B498 /* iOSTestInsights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTestInsights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E6ACC51D192D1A0020B498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47E6ACC71D192D1A0020B498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				47E6ACCC1D192D1A0020B498 /* Assets.xcassets */,
 				47E6ACCE1D192D1A0020B498 /* LaunchScreen.storyboard */,
 				47E6ACD11D192D1A0020B498 /* Info.plist */,
+				478AA9021D19C39C00B901E2 /* SecondViewController.swift */,
 			);
 			path = iOSTestInsights;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478AA9031D19C39C00B901E2 /* SecondViewController.swift in Sources */,
 				47E6ACC81D192D1A0020B498 /* ViewController.swift in Sources */,
 				47E6ACC61D192D1A0020B498 /* AppDelegate.swift in Sources */,
 			);
@@ -426,8 +430,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"/Users/digital-macbookpro/Downloads/FacebookSDKs-iOS-4/**",
 					"/Users/digital-macbookpro/Documents/Project/ApplicationInsights/ApplicationInsights",
-					"
-/**",
+					"/**",
 					"/**",
 				);
 				INFOPLIST_FILE = iOSTestInsights/Info.plist;
@@ -446,8 +449,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"/Users/digital-macbookpro/Downloads/FacebookSDKs-iOS-4/**",
 					"/Users/digital-macbookpro/Documents/Project/ApplicationInsights/ApplicationInsights",
-					"
-/**",
+					"/**",
 					"/**",
 				);
 				INFOPLIST_FILE = iOSTestInsights/Info.plist;
